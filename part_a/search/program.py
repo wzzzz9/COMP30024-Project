@@ -37,6 +37,7 @@ def search(
     # output format. Of course, you should instead return the result of your
     # search algorithm. Remember: if no solution is possible for a given input,
     # return `None` instead of a list.
+    # Hello Zhou Wei
     return [
         MoveAction(Coord(3, 3), Direction.Down),
         EatAction(Coord(4, 3), Direction.Down),
